@@ -1,0 +1,18 @@
+{
+  "folders": [],
+  "settings": {},
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Fall2017",
+        "type": "ccs-debug",
+        "request": "launch",
+        "projectInfo": {
+          "name": "Fall2017",
+          "resourceId": "/Fall2017"
+        }
+      }
+    ]
+  }
+}
