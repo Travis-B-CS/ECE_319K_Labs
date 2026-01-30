@@ -4,7 +4,7 @@
 
 SHELL = cmd.exe
 
-CG_TOOL_ROOT := C:/ti/ccs2000/ccs/tools/compiler/ti-cgt-armllvm_4.0.1.LTS
+CG_TOOL_ROOT := C:/ti/ccs2040/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS
 
 GEN_OPTS__FLAG := 
 GEN_CMDS__FLAG := 
@@ -22,7 +22,7 @@ ORDERED_OBJS += \
 "./ticlang/startup_mspm0g3507_ticlang.o" \
 "../mspm0g3507.cmd" \
 $(GEN_CMDS__FLAG) \
--Wl,-l"C:/ti/mspm0_sdk_2_03_00_07/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a" \
+-Wl,-l"/source/ti/driverlib/lib/ticlang/m0p/mspm0g1x0x_g3x0x/driverlib.a" \
 -Wl,-llibc.a \
 
 -include ../makefile.init
@@ -75,9 +75,6 @@ endif
 ifneq ($(strip $(S64_DEPS)),)
 -include $(S64_DEPS)
 endif
-ifneq ($(strip $(INO_DEPS)),)
--include $(INO_DEPS)
-endif
 ifneq ($(strip $(CLA_DEPS)),)
 -include $(CLA_DEPS)
 endif
@@ -92,9 +89,6 @@ ifneq ($(strip $(C62_DEPS)),)
 endif
 ifneq ($(strip $(C67_DEPS)),)
 -include $(C67_DEPS)
-endif
-ifneq ($(strip $(PDE_DEPS)),)
--include $(PDE_DEPS)
 endif
 ifneq ($(strip $(K_DEPS)),)
 -include $(K_DEPS)
@@ -146,7 +140,7 @@ all: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 ECE319K_Lab4.out: $(OBJS) $(CMD_SRCS) $(GEN_CMDS)
 	@echo 'Building target: "$@"'
 	@echo 'Invoking: Arm Linker'
-	"C:/ti/ccs2000/ccs/tools/compiler/ti-cgt-armllvm_4.0.1.LTS/bin/tiarmclang.exe" -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O0 -D__MSPM0G3507__ -gdwarf-3 -Wl,-m"ECE319K_Lab4.map" -Wl,--heap_size=512 -Wl,--stack_size=512 -Wl,-i"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/ECE319K_Lab4/Debug/syscfg" -Wl,-i"C:/ti/ccs2000/ccs/tools/compiler/ti-cgt-armllvm_4.0.1.LTS/lib" -Wl,--diag_wrap=off -Wl,--display_error_number -Wl,--warn_sections -Wl,--xml_link_info="ECE319K_Lab4_linkInfo.xml" -Wl,--rom_model -o "ECE319K_Lab4.out" $(ORDERED_OBJS)
+	"C:/ti/ccs2040/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/bin/tiarmclang.exe" -march=thumbv6m -mcpu=cortex-m0plus -mfloat-abi=soft -mlittle-endian -mthumb -O0 -D__MSPM0G3507__ -gdwarf-3 -Wl,-m"ECE319K_Lab4.map" -Wl,--heap_size=512 -Wl,--stack_size=512 -Wl,-i"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/ECE319K_Lab4/Debug/syscfg" -Wl,-i"C:/ti/ccs2040/ccs/tools/compiler/ti-cgt-armllvm_4.0.4.LTS/lib" -Wl,--diag_wrap=off -Wl,--display_error_number -Wl,--warn_sections -Wl,--xml_link_info="ECE319K_Lab4_linkInfo.xml" -Wl,--rom_model -o "ECE319K_Lab4.out" $(ORDERED_OBJS)
 	@echo 'Finished building target: "$@"'
 	@echo ' '
 

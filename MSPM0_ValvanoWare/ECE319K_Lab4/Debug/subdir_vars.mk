@@ -9,15 +9,15 @@ CMD_SRCS += \
 ../mspm0g3507.cmd 
 
 C_SRCS += \
-C:/Users/4trav/OneDrive/Documents/University\ of\ Texas\ at\ Austin/ECE\ 319K/MSPM0_ValvanoWare/inc/Clock.c \
-C:/Users/4trav/OneDrive/Documents/University\ of\ Texas\ at\ Austin/ECE\ 319K/MSPM0_ValvanoWare/inc/Dump.c \
+C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/Clock.c \
+C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/Dump.c \
 ../ECE319K_Lab4Grader.c \
 ../ECE319K_Lab4main.c \
-C:/Users/4trav/OneDrive/Documents/University\ of\ Texas\ at\ Austin/ECE\ 319K/MSPM0_ValvanoWare/inc/FIFO.c \
-C:/Users/4trav/OneDrive/Documents/University\ of\ Texas\ at\ Austin/ECE\ 319K/MSPM0_ValvanoWare/inc/LaunchPad.c \
-C:/Users/4trav/OneDrive/Documents/University\ of\ Texas\ at\ Austin/ECE\ 319K/MSPM0_ValvanoWare/inc/Timer.c \
-C:/Users/4trav/OneDrive/Documents/University\ of\ Texas\ at\ Austin/ECE\ 319K/MSPM0_ValvanoWare/inc/UART.c \
-C:/Users/4trav/OneDrive/Documents/University\ of\ Texas\ at\ Austin/ECE\ 319K/MSPM0_ValvanoWare/inc/UARTints.c 
+C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/FIFO.c \
+C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/LaunchPad.c \
+C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/Timer.c \
+C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/UART.c \
+C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/UARTints.c 
 
 C_DEPS += \
 ./Clock.d \
@@ -64,14 +64,14 @@ C_DEPS__QUOTED += \
 "UARTints.d" 
 
 C_SRCS__QUOTED += \
-"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/inc/Clock.c" \
-"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/inc/Dump.c" \
+"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/Clock.c" \
+"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/Dump.c" \
 "../ECE319K_Lab4Grader.c" \
 "../ECE319K_Lab4main.c" \
-"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/inc/FIFO.c" \
-"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/inc/LaunchPad.c" \
-"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/inc/Timer.c" \
-"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/inc/UART.c" \
-"C:/Users/4trav/OneDrive/Documents/University of Texas at Austin/ECE 319K/MSPM0_ValvanoWare/inc/UARTints.c" 
+"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/FIFO.c" \
+"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/LaunchPad.c" \
+"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/Timer.c" \
+"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/UART.c" \
+"C:/Users/4trav/Desktop/ECE_Labs/ECE_319K_Labs/MSPM0_ValvanoWare/inc/UARTints.c" 
 
 
